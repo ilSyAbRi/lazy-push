@@ -1,9 +1,8 @@
 
 def main():
     a = ["python", "java", "C++"]
-    for i , v in enumerate(a):
-        print(i, v)
-
+    b = enumerate(a)
+    print(next(b))
 
 if __name__ == "__main__":
     main()
